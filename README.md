@@ -1,20 +1,18 @@
-# flight-data-analysis
-Flight Data Analysis using Python
 
-Description:
-This project analyzes flight data from a CSV file using Python (pandas).
+# Flight Data Analysis
 
-Tasks Performed:
-- Converted CSV data into a DataFrame
-- Filtered flights with duration more than 19 hours
-- Extracted flights with distance greater than 10,000 km, 15,000 km, and 16,000 km
-- Identified and extracted duplicate records
-- Saved filtered and duplicate data into new CSV files
+This project performs data analysis on flight records using Python and the Pandas library.
 
-Tools Used:
-- Python
-- Pandas
+## Dataset
+The analysis is performed on the dataset: `Flights_14Jan.csv` (included in this repository). This file contains raw flight details including distances, durations, and schedules.
 
-Purpose:
-This project was created for learning data filtering and duplicate handling.
-
+## Tasks Performed
+The Python code extracts and processes the following information from the CSV:
+* **Data Loading:** Reading the `Flights_14Jan.csv` using Pandas.
+* **Max Distance:** Identifying the longest flight path in the records.
+* **Duration Analysis:** Calculating and filtering flight durations.
+## How to Run
+1. Ensure you have Python and Jupyter Notebook installed.
+2. Clone this repository.
+3. Open the `.ipynb` file and run the cells. 
+*Note: Outputs have been cleared in the uploaded version per project requirements.*
